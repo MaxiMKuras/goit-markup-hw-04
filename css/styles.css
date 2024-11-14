@@ -1,0 +1,192 @@
+/* Base styles */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/* reset */
+ul,
+ol {
+list-style-type: none;
+margin: 0;
+padding: 0;}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {margin: 0;}
+
+a {text-decoration: none;
+display: block;}
+
+/* common */
+
+.container { 
+  max-width: 1158px;
+  padding: 0 15px;
+  margin:  0 auto;}
+
+
+.page-header {
+border-bottom: 1px solid #e7e9fc;}
+
+.header-conrainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;}
+
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;}
+
+.header-logo .logo-part {
+  color: #2e2f42;}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;}
+
+/* Navigation link styles */
+.nav-link {
+  display: block;
+  padding: 24px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;}
+
+.nav-list {
+  display: flex;
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0;
+  justify-content: center;
+  }
+
+
+/* Contact styles */
+.contacts {
+  font-style: normal;
+  margin-left: auto;}
+
+.contacts-list {
+display: flex;
+align-items: center;
+gap: 40px;}
+
+
+.contacts-link {
+  display: block;
+  padding: 24px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;}
+
+.nav-link:hover, 
+.nav-link:focus,
+.contacts-link:hover, 
+.contacts-link:focus {
+  color: #404bbf;}
+
+/* Section styles */
+.hero-section {
+  background-color: #2e2f42;
+  padding: 0 0;}
+
+  /* Контейнер */ 
+  .container { max-width: 100%; padding: 0 15px; margin: 0 auto; }
+   /* Заголовок */ 
+   .hero-title { max-width: 496px; font-size: 56px; line-height: 1.07; text-align: center; letter-spacing: 0.02em; color: #ffffff; margin: 0 auto; }
+    /* Кнопка */ .hero-button { display: block; min-width: 169px; height: 56px; border: none; background-color: var(--button-color, #4d5ae5); border-radius: 4px; cursor: pointer; font-family: "Roboto", sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.04em; color: #ffffff; text-align: center; margin: 20px auto 0;/* Центрування кнопки */ } 
+       /* Додаткові стилі для перевірки відступів */ 
+       .section { outline: 1px solid red; /* Для візуальної перевірки */ } 
+       .container { outline: 1px solid blue; /* Для візуальної перевірки */} 
+
+
+.section-title {
+  font-size: 15px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;}
+
+.section-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;}
+
+.section-button:hover, .section-button:focus {
+  background-color: #404bbf;}
+
+.features-section, .team-section, .projects-section {
+  background-color: #f4f4fd;}
+
+.features-title, .team-title, .projects-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;}
+
+.feature-item, .team-item, .project-item {
+  background-color: #ffffff;}
+
+.feature-title, .team-member-title, .project-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;}
+
+.feature-description, .team-member-description, .project-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;}
+
+/* Footer styles */
+.footer {
+  background-color: #2e2f42;}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;}
+
+.footer-paragraph {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;}
