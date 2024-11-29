@@ -121,7 +121,7 @@ background: var(--white);
   .contacts-list {
       display: flex;
       align-items: center;
-      gap: 40px;
+      gap: 24px;
   }
   
   .contact-link {
